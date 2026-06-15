@@ -1,0 +1,29 @@
+/* Styles for course portfolio */
+html, body {
+  margin: 0;
+  padding: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.card {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+  margin-top: 0;
+}
+
+.card p {
+  line-height: 1.6;
+}
+.card p {
+    line-height: 1.6;
+}
+
