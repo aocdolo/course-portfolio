@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #111111;
+  color: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #000000, #2b2b2b);
+  border-bottom: 3px solid #b30000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+header p {
+  max-width: 700px;
+  margin: 15px auto 0;
+  font-size: 1.1rem;
+  color: #dddddd;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+.collection-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.collection-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 100%;
+  background: #1c1c1c;
+  border: 1px solid #333333;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.45);
+}
+
+.collection-card img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  display: block;
+}
+
+.collection-card h2 {
+  margin: 18px 18px 8px;
+  color: #ffffff;
+}
+
+.details {
+  margin: 0 18px;
+  color: #ff3b3b;
+  font-weight: bold;
+}
+
+.collection-card p {
+  margin: 12px 18px 20px;
+  line-height: 1.5;
+  color: #dddddd;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #000000;
+  color: #aaaaaa;
+}
+
+/* Tablet: two columns */
+@media (width >= 480px) {
+  .collection-card {
+    flex-basis: 45%;
+  }
+}
+
+/* Desktop: three columns */
+@media (width >= 1024px) {
+  .collection-card {
+    flex-basis: 30%;
+  }
+}
