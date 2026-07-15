@@ -1,0 +1,74 @@
+:root{
+    --blue:#2563eb;
+    --green:#16a34a;
+    --orange:#f97316;
+    --purple:#7c3aed;
+    --white:#ffffff;
+    --dark:#1f2937;
+}
+
+/* Button 03 */
+.button-03{
+    background:var(--blue);
+    color:var(--white);
+    padding:12px 24px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:all .3s ease;
+}
+
+.button-03:hover{
+    background:#1d4ed8;
+    transform:translateX(10px);
+}
+
+/* Button 04 */
+.button-04{
+    background:var(--green);
+    color:white;
+    padding:12px 24px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    transition:all .3s ease-in-out;
+}
+
+.button-04:hover{
+    transform:translateY(-6px);
+    box-shadow:0 10px 20px rgba(0,0,0,.3);
+}
+
+/* Button 05 */
+.button-05{
+    background:var(--orange);
+    color:white;
+    padding:12px 24px;
+    border:2px solid var(--orange);
+    border-radius:8px;
+    cursor:pointer;
+    transition:.4s ease;
+}
+
+.button-05:hover{
+    background:white;
+    color:var(--orange);
+    border-color:var(--dark);
+}
+
+/* Button 06 */
+.button-06{
+    background:var(--purple);
+    color:white;
+    padding:12px 24px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    transition:.5s ease;
+}
+
+.button-06:hover{
+    transform:scale(1.08);
+    box-shadow:0 0 20px rgba(124,58,237,.7);
+    background:#5b21b6;
+}
